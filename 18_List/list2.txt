@@ -1,0 +1,31 @@
+x=[]
+x.append(int(input('enter 1st: ')))
+x.append(int(input('enter 2nd: ')))
+x.append(int(input('enter 3rd: ')))
+x.append(int(input('enter 4th: ')))
+x.append(int(input('enter 5th: ')))
+print(x)
+x.pop(int(input('For pop Enter index Num: ')))
+print(x)
+x.remove(int(input('Remove num: ')))
+print(x,"\n\n\tYou should insert value which index you pop or removed.\n\tValue should be diffrent.\n")
+x.insert(int(input('Enter index insert 1st no.: ')),int(input('Enter insert value 1: ')))
+x.insert(int(input('Enter index insert 2nd no.: ')),int(input('Enter insert value 2: ')))
+print(x,"\n\n\tYou should create a new list 'y'.\n")
+
+y=[]
+y.append(int(input('enter 1st value in list y: ')))
+y.append(int(input('enter 2nd value in list y: ')))
+print(y)
+# x.append(y)
+x.insert(int(input("In which index do you insert 'y'in list 'x',")),y)
+print(x,"\n\n\tWait...\n\twhat happened\nOk I explain\n\tHere you see list 'y' enters in the last index of the list 'x'.\n\tyou should fix it now\n")
+
+del x[int(input("delete index which is list y"))]
+print(x,\n\n\tI am going to extend list 'y' into 'x'.\n)
+x.extend(y)
+print(x,"\n\n\tI want to sort this list.")
+x.sort()
+print(x)
+
+

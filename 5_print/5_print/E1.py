@@ -1,0 +1,11 @@
+print(12,end='\n')
+print(13,end='\n')
+print(14,end='\n')
+print(15,end='\n')
+print(16,end='\n')
+
+# print(12)
+# print(13)
+# print(14)
+# print(15)
+# print(16)

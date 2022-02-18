@@ -1,0 +1,3 @@
+x = ord(' ')
+
+print(x)

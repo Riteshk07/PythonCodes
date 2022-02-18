@@ -1,0 +1,5 @@
+print(12,end='')
+print(13,end='')
+print(14,end='')
+print(15,end='')
+print(16,end='')

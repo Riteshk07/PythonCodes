@@ -1,0 +1,5 @@
+print(12,end='\n\n')
+print(13,end='\n\n')
+print(14,end='\n\n')
+print(15,end='\n\n')
+print(16,end='\n\n')

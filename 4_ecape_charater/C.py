@@ -1,0 +1,12 @@
+import time
+print('r', end='', flush=True)
+time.sleep(1)
+print('a', end='', flush=True)
+time.sleep(1)
+print('m', end='', flush=True)
+time.sleep(1)
+print('\b', end='', flush=True)
+time.sleep(1)
+print('\b', end='', flush=True)
+time.sleep(1)
+print('o', end='', flush=True)
