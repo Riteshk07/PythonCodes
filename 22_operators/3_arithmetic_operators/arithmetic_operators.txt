@@ -1,0 +1,20 @@
+Arithmetic Operators:
+
+Operators  -  Meaning
+----------------------
+    +      -  Addition 
+
+    -      -  Subtraction  
+
+    *      -  Multiplication
+
+    /      -  Division
+
+    %      -  Modulus
+
+    **     -  Exponentiation
+    
+    //     -  Floor Division
+
+
+Note: All arithmetic operators are binary operators.

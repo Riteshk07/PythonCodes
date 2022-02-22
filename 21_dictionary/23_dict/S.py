@@ -6,6 +6,6 @@ print(x)
 
 # x.extend(y)    # AttributeError: 'dict' object has no attribute 'extend'
 
-z = x + y       # unsupported operand type(s) for +: 'dict' and 'dict'
+z = x + y  
 
 print(x)

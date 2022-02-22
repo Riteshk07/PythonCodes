@@ -1,0 +1,11 @@
+Logical Operators: 
+---------------------
+
+
+operator      meaning
+---------------------
+   and       logical and
+   
+   or        logical or
+
+   not       logical not

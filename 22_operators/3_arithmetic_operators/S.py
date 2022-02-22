@@ -1,0 +1,7 @@
+print(4 * 5)
+print(4.5 * 5)
+print(4.5 * 5.2)
+print('om' * 3)
+print(True * 3)
+print((2+3j) * 3)
+print(2 + 3j * 3)
