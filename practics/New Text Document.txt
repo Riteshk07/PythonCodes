@@ -1,0 +1,6 @@
+a=input
+b=input
+
+print(f"addition is: {}")
+print(f"subtraction is: {}")
+print(f"multi is: {}")
