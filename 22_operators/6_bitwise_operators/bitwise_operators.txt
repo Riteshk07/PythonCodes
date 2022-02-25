@@ -1,0 +1,19 @@
+Bitwise Operators:
+------------------
+
+
+
+operators          meaning
+---------          --------
+
+   <<             bitwise left shift operator
+
+   >>             bitwise right shift operator
+
+   &              bitwise and operator
+
+   ^              bitwise exclusive or operator
+
+   |              bitwise or operator
+
+   ~              bitwise one's complement operator

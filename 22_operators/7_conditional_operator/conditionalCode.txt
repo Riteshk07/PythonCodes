@@ -1,0 +1,48 @@
+conditional operator 
+---------------------
+
+<operand-result-1> if <operand-test-2> else <operand-result-2>
+#*************************************************************
+Ex: 
+
+x= 5 if 5>9 else 9 => 9
+
+#*************************************************************
+
+age = int (input("enter your Age: "))
+
+result = "OK" if age>5 and age<20 else "SORRY"
+
+print(age)
+
+#************************************************************
+#find largest number:
+
+x=int(input("Enter First number: "))
+y=int(input("Enter Second number: "))
+
+print(x if x>y else y)
+
+#***********************************************************
+# find largest number:
+
+x=int(input("Enter First number: "))
+y=int(input("Enter Second number: "))
+z=int(input("Enter Third number: "))
+
+result= x if x>y and x>z else (z if z>y else y)
+print(result)
+
+#***********************************************************
+
+x=int(input("Enter books Price"))
+
+result= "All Books dede Bhai" if x<=0 else("Buy Now" is x<=200 else("Buy Later" if x<=400 else "Don't Buy" ))
+# result = "Buy Now" if x <= 200 else ("Buy Later" if x > 200 and x <=400 else "Don't Buy")
+# result = "Buy Now" if x <= 200 else ("Buy Later" if x <= 400 else "Don't Buy")
+# result = "Buy Now" if x <= 200 else ("Don't Buy" if x > 400 else "Buy Later")
+
+print(result)
+
+#***********************************************************
+
