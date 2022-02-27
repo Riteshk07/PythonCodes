@@ -46,3 +46,25 @@ print(result)
 
 #***********************************************************
 
+m= input("Enter marks: ")
+y=int(m) if m.isdigit() else "Eneter Correct Marks" 
+
+result= "Enter Correct Marks" if type(y)==str else"Enter correct Marks" if y<0 else("fail" if y<=33 else ("3rd division" if y<= 50 else ("Second Division" if y <=60 else ("First division" if y<=100 else "Enter correct marks"))))
+
+print(result)
+
+#**************************************************************
+mb = int(input("Min. Balnce: "))
+x = input("Gender: ")
+t = int(input("Age: "))
+female= (8/100)*mb if mb>=2000 and t>22 else ((12/100)*mb if t>60 else(4/100)*mb if t<=22 else "You are not Allowed")
+
+male= (6/100)*mb if mb>=5000 and t>22 else ((11/100)*mb if t>60 and mb>=2000 else((2/100)*mb if t<=22 and mb>=500 else "You are not Allowed"))
+
+interest = male if x=="M" else female
+
+print(interest)
+
+#***********************************************************************
+
+
