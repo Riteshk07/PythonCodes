@@ -1,0 +1,124 @@
+x = [56, 34, 90, 67, 12, 9, 59, 42]
+
+# y = x[2:5:1]    # start-index: 2 and end-index: 5 and step: 1
+y = x[1:6:2]    # start-index: 1 and end-index: 6 and step: 2
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[:9:3]    # start-index: 0 and end-index: 9 and step: 3
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[2::3]    # start-index: 2 and end-index: len(x) and step: 3
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[2:5:]    # start-index: 2 and end-index: 5 and step: 1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[:5:]    # start-index: 0 and end-index: 5 and step: 1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[7::]    # start-index: 7 and end-index: len(x) and step: 1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[::]    # start-index: 0 and end-index: len(x) and step: 1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[4:1]    # start-index: 4 and end-index: 1 and step: 1
+
+print(y)
+
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[-2:-6]    # start-index: -2 and end-index: -6 and step: 1
+
+print(y)
+
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[-2:-6:-1]    # start-index: -2 and end-index: -6 and step: -1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# y = x[-2:-6:0]    # start-index: -2 and end-index: -6 and step: 0
+y = x[2:6:0]    # start-index: -2 and end-index: -6 and step: 0
+
+print(y)
+
+# ValueError: slice step cannot be zero
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[-3::-1]     # start-index: -3 and end-index: -(len(x)+1)
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[-3:-20:-1]     # start-index: -3 and end-index: -(len(x)+1) and step: -1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# y = x[-7::1]     # start-index: -7 and end-index: - and step: 1
+y = x[-7::-1]     # start-index: -7 and end-index: - and step: -1
+
+print(y)
+
+
+
+x = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+y = x[:-5:-1]     # start-index: -7 and end-index: - and step: -1
+
+print(y
