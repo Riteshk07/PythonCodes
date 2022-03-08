@@ -1,0 +1,32 @@
+gender = input('Enter gender(m/f): ')
+age = int(input('Enter Age: '))
+cqCh = input("Do you want to add check book?: ")
+charge=0
+if cqch=="Y":
+	charge += 500
+elif cqch=="N"
+	pass
+else:
+	print("invalid input")
+
+if age>0 and age<=100:
+	if gender == 'm':
+	    print('Male:')
+	    if age <= 22:
+	        print(f'MB: {500+charge} and IR: 2%')
+	    elif age <= 60:
+	        print('MB: {5000+charge} and IR: 6%')
+	    else:
+	        print('MB: {2000+charge} and IR: 11%')
+	elif gender=='f':
+	    print('Female:')
+	    if age <= 22:
+	        print('MB: {0+charge} and IR: 4%')
+	    elif age <= 60:
+	        print('MB: {2000+charge} and IR: 8%')
+	    else:
+	        print('MB: {0+charge} and IR: 12%')
+	else:
+		print("Invalid Gender")
+else:
+	print("invalid Age")
