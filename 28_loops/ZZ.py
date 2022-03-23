@@ -1,0 +1,1 @@
+print('om ji maharaj'.capitalize())
