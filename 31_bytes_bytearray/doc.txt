@@ -1,0 +1,23 @@
+Basic Data Types:
+
+int
+float
+str
+bool
+complex
+
+Advance Data Types:
+(Collection Types)
+
+(0-256)
+bytes (immutable)
+bytearray (mutable)
+
+list (mutable)
+tuple (immutable)
+
+set (mutable)
+frozenset (immutable)
+
+dict (mutable)
+
