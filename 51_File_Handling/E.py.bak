@@ -1,0 +1,5 @@
+file = open ("spiderman.png", "rb")
+
+bs = file.read()
+
+print(bs)
