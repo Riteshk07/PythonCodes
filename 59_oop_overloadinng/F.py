@@ -1,0 +1,5 @@
+print(2+3)
+print(2+3.4)
+print(2.34+3.78)
+print("Ram"+"ji")
+print(2+3j+5)

@@ -1,0 +1,13 @@
+class A:
+    def pro1(self):
+        print("Pro1 in A")
+    
+class B:
+    def pro2(self):
+        print("Pro2 in A")
+    
+class C(A,B):
+    def pro1(self):
+        print("Pro1 in A")
+    
+x= C()
